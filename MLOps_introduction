@@ -1,5 +1,14 @@
 ###What is Machine Learning (ML)?
-```
 Instead of writing strict code to tell a computer what to do, you show it examples and let it learn the patterns on its own.
 (Like teaching a child what a dog looks like by showing pictures, instead of writing a rulebook.)
-```
+
+What is a Model?
+A model is the final result of that learning process. It is simply a mathematical formula or equation packed with learned numbers 
+(called weights) that can take new inputs and make smart predictions.
+
+
+Data Engineer:
+The plumber. They build pipelines to collect, store, and clean raw data from databases and streams.
+
+Data Scientist:
+The scientist/detective. They experiment with algorithms, feature engineering, and mathematics in notebooksto train a modelthat solves a problem.
