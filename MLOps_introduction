@@ -1,5 +1,5 @@
-#What is Machine Learning (ML)?
-  ...
+###What is Machine Learning (ML)?
+```
 Instead of writing strict code to tell a computer what to do, you show it examples and let it learn the patterns on its own.
 (Like teaching a child what a dog looks like by showing pictures, instead of writing a rulebook.)
-  ...
+```
