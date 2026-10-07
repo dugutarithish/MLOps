@@ -12,3 +12,36 @@ The plumber. They build pipelines to collect, store, and clean raw data from dat
 
 Data Scientist:
 The scientist/detective. They experiment with algorithms, feature engineering, and mathematics in notebooksto train a modelthat solves a problem.
+
+ML LIFECYC
+
+[01] Problem Definition
+        │
+        ▼
+[02] Data Collection
+        │
+        ▼
+[03] Data Cleaning & Preprocessing
+        │
+        ▼
+[04] Exploratory Data Analysis (EDA)
+        │
+        ▼
+[05] Feature Engineering & Selection
+        │
+        ▼
+[06] Model Selection
+        │
+        ▼
+[07] Model Training
+        │
+        ▼
+[08] Model Evaluation and Tuning
+        │
+        ▼
+[09] Model Deployment
+        │
+        ▼
+[10] Model Monitoring & Maintenance
+        │
+        └───► (Feedback Loop back to 01 Problem Definition)
