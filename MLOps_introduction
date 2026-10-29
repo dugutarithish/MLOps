@@ -1,3 +1,7 @@
+Mlops :- MLOps (Machine Learning Operations) is a set of practices that combines machine learning, software engineering,
+and DevOps to automate and streamline the entire lifecycle of ML models.  It bridges the gap between data scientists
+who build models and operations teams who deploy them, ensuring models are reliable, scalable, and maintainable in production. 
+
 
 ###What is Machine Learning (ML)?
 Instead of writing strict code to tell a computer what to do, you show it examples and let it learn the patterns on its own.
