@@ -1,14 +1,18 @@
-# MLflow in MLOps: Where Do We Use It and Why?
+# MLflow in MLOps
 
-## Introduction
+## What is MLflow?
+
+MLflow is an open-source platform used in MLOps to manage the Machine Learning lifecycle.
+
+It helps us track experiments, record parameters and metrics, store artifacts, manage model versions and deploy models.
+
+### Real-World Example
 
 Imagine you are an ML Engineer developing a Machine Learning model to predict house prices.
 
 You train the model multiple times. You need to save the results, compare performance, maintain different model versions and deploy the best model.
 
 **This is where MLflow is used.**
-
-MLflow helps us manage the Machine Learning lifecycle.
 
 ---
 
@@ -22,9 +26,11 @@ MLflow helps us manage the Machine Learning lifecycle.
 
 You train a house price prediction model three times.
 
-- Experiment 1: Accuracy = 80%
-- Experiment 2: Accuracy = 85%
-- Experiment 3: Accuracy = 92%
+| Experiment | Accuracy |
+|---|---:|
+| Experiment 1 | 80% |
+| Experiment 2 | 85% |
+| Experiment 3 | 92% |
 
 MLflow stores these results so we can compare different experiments.
 
@@ -96,9 +102,11 @@ MLflow stores these files so we can access them later.
 
 **Example:**
 
-- Model v1: Accuracy = 80%
-- Model v2: Accuracy = 90%
-- Model v3: Accuracy = 95%
+| Model | Accuracy |
+|---|---:|
+| Model v1 | 80% |
+| Model v2 | 90% |
+| Model v3 | 95% |
 
 If Model v3 performs better, we can select it.
 
@@ -169,7 +177,7 @@ MLflow helps package models and provides deployment-related tools and interfaces
 | Model Registry | Manage registered models |
 | Model Deployment | Make models available |
 
-## Remember This Workflow
+## MLflow Workflow
 
 1. Train ML Model
 2. Track Experiments
@@ -179,6 +187,6 @@ MLflow helps package models and provides deployment-related tools and interfaces
 6. Register the Best Model
 7. Deploy the Model
 
-**Important Interview Point:**
+## Important Interview Point
 
 MLflow does not automatically improve model accuracy. It helps us track, compare, manage and deploy Machine Learning models.
