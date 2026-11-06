@@ -1,0 +1,184 @@
+# MLflow in MLOps: Where Do We Use It and Why?
+
+## Introduction
+
+Imagine you are an ML Engineer developing a Machine Learning model to predict house prices.
+
+You train the model multiple times. You need to save the results, compare performance, maintain different model versions and deploy the best model.
+
+**This is where MLflow is used.**
+
+MLflow helps us manage the Machine Learning lifecycle.
+
+---
+
+## 1. Experiment Tracking
+
+**Where is it used?** During model training.
+
+**Meaning:** MLflow records every experiment we perform while training a Machine Learning model.
+
+**Example:**
+
+You train a house price prediction model three times.
+
+- Experiment 1: Accuracy = 80%
+- Experiment 2: Accuracy = 85%
+- Experiment 3: Accuracy = 92%
+
+MLflow stores these results so we can compare different experiments.
+
+**Interview Answer:** Experiment Tracking is used to record and compare different Machine Learning experiments.
+
+---
+
+## 2. Parameter Tracking
+
+**Where is it used?** During model training.
+
+**Meaning:** Parameters are the settings we give to a Machine Learning model before training.
+
+**Example:**
+
+- Learning Rate = 0.01
+- Epochs = 50
+- Batch Size = 32
+
+MLflow records these settings.
+
+**Interview Answer:** Parameter Tracking is used to record the training configurations of a Machine Learning model.
+
+---
+
+## 3. Metrics Tracking
+
+**Where is it used?** To evaluate model performance.
+
+**Meaning:** Metrics tell us how well our model is performing.
+
+**Example:**
+
+- Accuracy = 95%
+- Precision = 90%
+- Recall = 92%
+- Loss = 0.05
+
+MLflow records these values so we can identify the best-performing model.
+
+**Interview Answer:** Metrics Tracking is used to measure and compare Machine Learning model performance.
+
+---
+
+## 4. Artifact Tracking
+
+**Where is it used?** During and after model training.
+
+**Meaning:** Artifacts are the files generated during Machine Learning experiments.
+
+**Example:**
+
+- Trained model files
+- Graphs
+- Confusion Matrix
+- Training Reports
+
+MLflow stores these files so we can access them later.
+
+**Interview Answer:** Artifact Tracking is used to store files generated during Machine Learning experiments.
+
+---
+
+## 5. Model Versioning
+
+**Where is it used?** When models are updated or retrained.
+
+**Meaning:** Whenever we improve or retrain a model, we can maintain different versions.
+
+**Example:**
+
+- Model v1: Accuracy = 80%
+- Model v2: Accuracy = 90%
+- Model v3: Accuracy = 95%
+
+If Model v3 performs better, we can select it.
+
+**Interview Answer:** Model Versioning is used to maintain and track different versions of Machine Learning models.
+
+---
+
+## 6. Model Registry
+
+**Where is it used?** Before production deployment.
+
+**Meaning:** It is a central place to manage and organize registered Machine Learning models and their versions.
+
+**Example:**
+
+Suppose you have three models:
+
+- House Price Prediction Model
+- Fraud Detection Model
+- Customer Prediction Model
+
+You can register and manage all these models in the MLflow Model Registry.
+
+You can also manage their lifecycle:
+
+- Development
+- Staging
+- Production
+- Archived
+
+**Interview Answer:** Model Registry is used to centrally manage model versions and their lifecycle.
+
+---
+
+## 7. Model Deployment
+
+**Where is it used?** When making a model available to applications.
+
+**Meaning:** After selecting the best model, we make it available so other applications can use it for predictions.
+
+**Example:**
+
+You trained a House Price Prediction Model.
+
+A user enters:
+
+- Location
+- Number of Bedrooms
+- House Area
+
+The deployed model predicts the house price.
+
+MLflow helps package models and provides deployment-related tools and interfaces.
+
+**Interview Answer:** Model Deployment is used to make trained Machine Learning models available for real-world predictions.
+
+---
+
+## Quick Revision
+
+| MLflow Feature | Why Do We Use It? |
+|---|---|
+| Experiment Tracking | Record experiments |
+| Parameter Tracking | Record training settings |
+| Metrics Tracking | Measure performance |
+| Artifact Tracking | Store generated files |
+| Model Versioning | Maintain model versions |
+| Model Registry | Manage registered models |
+| Model Deployment | Make models available |
+
+## Remember This Workflow
+
+1. Train ML Model
+2. Track Experiments
+3. Record Parameters and Metrics
+4. Store Artifacts
+5. Maintain Model Versions
+6. Register the Best Model
+7. Deploy the Model
+
+**Important Interview Point:**
+
+MLflow does not automatically improve model accuracy. It helps us track, compare, manage and deploy Machine Learning models.
